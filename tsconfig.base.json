@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./typings", "node_modules/@types"],
+    "declaration": true,
+    "esModuleInterop": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": ["node_modules", "**/dist"]
+}
