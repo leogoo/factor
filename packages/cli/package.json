@@ -1,0 +1,23 @@
+{
+  "name": "@factor/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "act": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "copy-dir": "^1.3.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.5",
+    "ora": "^7.0.1",
+    "yargs": "^17.7.2"
+  }
+}

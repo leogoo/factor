@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "outDir": "./build/",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es5",
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "*",
+        "*.tsx"
+      ], // 这行配置让 TypeScript 在解析模块时附加 .tsx 扩展名
+      "@public": [
+        "./public"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "typings.d.ts"
+  ]
+}
