@@ -1,5 +1,5 @@
 {
-  "name": "webpack-tailwind",
+  "name": "{{ projectName }}",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
